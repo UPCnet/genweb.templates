@@ -1,3 +1,4 @@
-graft src/{{{ package.namespace }}}
-include *.cfg *.rst *.in
-
+recursive-include {{{ package.namespace }}} *
+recursive-include docs *
+include *
+global-exclude *.pyc
