@@ -12,12 +12,12 @@ def read(*rnames):
 
 long_description = \
     read('README.rst') + \
-    read('docs', 'CHANGELOG.rst') + \
-    read('docs', 'LICENSE.rst')
+    read('docs', 'HISTORY.rst') + \
+    read('docs', 'LICENSE.txt')
 
 setup(
     name='genweb.templates',
-    version='0.1',
+    version='1.0',
     description="Templates for Genweb projects",
     long_description=long_description,
     # Get more from http://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -30,42 +30,13 @@ setup(
     author_email='plone.team@upcnet.es',
     url='http://pypi.python.org/pypi/genweb.templates',
     license='BSD',
-    packages=find_packages('src', exclude=['ez_setup']),
+    packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['genweb'],
-    package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'five.grok',
-        'five.pt',
-        'Pillow',
-        'Plone',
-        'plone.api',
         'setuptools',
-        'z3c.jbot',
     ],
-    extras_require={
-        'test': [
-            'mock',
-            'plone.app.testing',
-            'unittest2',
-        ],
-        'develop': [
-            'coverage',
-            'flake8',
-            'jarn.mkrelease',
-            'niteoweb.loginas',
-            'plone.app.debugtoolbar',
-            'plone.reload',
-            'Products.Clouseau',
-            'Products.DocFinderTab',
-            'Products.PDBDebugMode',
-            'Products.PrintingMailHost',
-            'Sphinx',
-            'zest.releaser',
-            'zptlint',
-        ],
-    },
     entry_points="""
     [z3c.autoinclude.plugin]
     target = plone
