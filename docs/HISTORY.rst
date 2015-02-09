@@ -1,20 +1,20 @@
 Changelog
 =========
 
-1.2 (unreleased)
+1.2 (2015-02-09)
 ----------------
 
-- Nothing changed yet.
-
+* Added back theme [Victor Fernandez de Alba]
+* Deleted theme [Victor Fernandez de Alba]
 
 1.1 (2015-01-18)
 ----------------
 
-- Nothing changed yet.
-
+* Added back theme [Victor Fernandez de Alba]
+* Deleted theme [Victor Fernandez de Alba]
 
 1.0 (2015-01-18)
 ----------------
 
-- Nothing changed yet.
-
+* Added back theme [Victor Fernandez de Alba]
+* Deleted theme [Victor Fernandez de Alba]
