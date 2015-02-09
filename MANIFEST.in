@@ -1,2 +1,2 @@
-graft src/genweb
+graft genweb
 include *.cfg *.rst *.in
