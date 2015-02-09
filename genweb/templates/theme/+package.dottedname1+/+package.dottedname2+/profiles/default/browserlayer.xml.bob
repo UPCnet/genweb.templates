@@ -1,0 +1,6 @@
+<layers>
+  <layer
+      name="{{{theme.name}}}"
+      interface="{{{package.name}}}.browser.interfaces.I{{{theme.name}}}"
+  />
+</layers>

@@ -1,0 +1,5 @@
+from genweb.theme.browser.interfaces import IGenwebTheme
+
+
+class I{{{theme.name}}}(IGenwebTheme):
+    """ Marker interface inherited from IGenwebTheme """
