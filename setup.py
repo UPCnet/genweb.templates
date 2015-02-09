@@ -17,7 +17,7 @@ long_description = \
 
 setup(
     name='genweb.templates',
-    version='1.2',
+    version='1.3.dev0',
     description="Templates for Genweb projects",
     long_description=long_description,
     # Get more from http://pypi.python.org/pypi?%3Aaction=list_classifiers
